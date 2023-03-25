@@ -10,7 +10,7 @@ public class MergeLeads extends BaseClass {
 	public void runMergeLead() {
 		new LoginPage(driver).enterUserName().enterPassword().clickLoginButton()
 		.clickCRMFSA().clickLeadsButton().clickMerge().clickFromLead().clickMaverick()
-		.clickToLead().clickKumaran();
+		.clickToLead().clickKumaran().clickMergeButton();
 	}
 
 }
